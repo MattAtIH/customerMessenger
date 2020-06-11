@@ -8,8 +8,12 @@ class DateFormattingKtTest extends groovy.util.GroovyTestCase {
     }
 
     void testConvertTimeStampToInt() {
+        def stringDate = '1211'
+        def expectedDateInt = 1211
+        assertEquals((stringDate.toInteger()), expectedDateInt)
     }
 
     void testConvertDateToInt() {
+
     }
 }
